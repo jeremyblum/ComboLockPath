@@ -14,3 +14,15 @@ DABC
 AOBS
 ABGC
 - right now only restriction is that the min distance is at least 6 (meaning that two wheels need to be turned).  This restriction could be removed when implementing the previous ones.
+
+To run the program, you need to provide the following input via standard input.  On a line by itself, you enter n, the number of wheels.  Then the next n lines should contain the letters on each wheel as a string, e.g.:
+
+4
+
+ABCDEFGHIJ
+
+ABCDEFGHIJ
+
+ABCDEFGHIJ
+
+ABCD FGHIJ
