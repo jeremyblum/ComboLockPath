@@ -15,7 +15,7 @@ public class Optimizer {
 	static int populationSize = 100; // The size of a generation in the GA
 	static int generations = 100; // The number of generations in the optimization process
 	
-	static int MIN_DISTANCE_FROM_START_WORD = 6; // The minimum distance from the starting word for a word to 
+	static int MIN_DISTANCE_FROM_START_WORD = 0; // The minimum distance from the starting word for a word to
 	                                             // be considered as a combination
 	
 	/**

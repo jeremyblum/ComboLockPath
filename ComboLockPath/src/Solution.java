@@ -39,8 +39,8 @@ public class Solution implements Comparable<Solution> {
 			int distSoFar = 0; 
 			int lastWord = -1;
 			for (int i = 0; i < path.size(); i++) {
-				distSoFar += lock.distance(lastWord, path.get(i)); // One to try this word
-				score += 1 + distSoFar; 
+				distSoFar += 1 + lock.distance(lastWord, path.get(i)); // One to try this word
+				score += distSoFar;
 				lastWord = path.get(i);
 			}
 		}
