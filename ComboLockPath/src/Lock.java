@@ -35,7 +35,7 @@ public class Lock {
 			throw new RuntimeException("Missing word list");
 		}
 		while (sc.hasNext()) {
-			String word = sc.nextLine().toLowerCase();
+			String word = sc.next().toLowerCase();
 			Long count = sc.nextLong();
 			
 			boolean ok = true;
