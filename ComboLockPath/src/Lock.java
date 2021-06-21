@@ -30,12 +30,13 @@ public class Lock {
 
 		Scanner sc;
 		try {
-			sc = new Scanner(new File("words.txt"));
+			sc = new Scanner(new File("words_with_frequency.txt"));
 		} catch (FileNotFoundException e) {
 			throw new RuntimeException("Missing word list");
 		}
 		while (sc.hasNext()) {
 			String word = sc.nextLine().toLowerCase();
+			Long count = sc.nextLong();
 			
 			boolean ok = true;
 			if (word.length() > wheels.length) { 
