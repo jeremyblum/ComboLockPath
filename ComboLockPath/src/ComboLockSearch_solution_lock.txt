@@ -1,0 +1,309 @@
+Total words: 5540
+BEST InitOpNextClosest: 3.1543282E7
+BEST InitOpNextClosest: 3.1505026E7
+BEST InitOpNextClosest: 3.1492934E7
+BEST InitOpNextClosest: 3.1452396E7
+BEST InitOpNextClosest: 3.1449524E7
+BEST InitOpNextClosest: 3.143223E7
+BEST InitOpNextClosest: 3.1431866E7
+BEST InitOpNextClosest: 3.1429708E7
+Generation 1
+Population Stats: best: 3.1429708E7 worst: 3.1590378E7 ave: 3.14958017E7
+Generation 2
+Time (ms): 82199
+Population Stats: best: 3.1429708E7 worst: 3.1590378E7 ave: 3.14958017E7
+Generation 3
+Time (ms): 82001
+Population Stats: best: 3.1429708E7 worst: 3.1590378E7 ave: 3.14958017E7
+Generation 4
+Time (ms): 84440
+Population Stats: best: 3.1429708E7 worst: 3.1590378E7 ave: 3.14958017E7
+Generation 5
+Time (ms): 84393
+Population Stats: best: 3.1429708E7 worst: 3.1590378E7 ave: 3.14958017E7
+Generation 6
+Time (ms): 83067
+Population Stats: best: 3.1429708E7 worst: 3.1590378E7 ave: 3.14958017E7
+Generation 7
+Time (ms): 84687
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 8
+Time (ms): 82718
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 9
+Time (ms): 82874
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 10
+Time (ms): 81900
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 11
+Time (ms): 88952
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 12
+Time (ms): 82058
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 13
+Time (ms): 85190
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 14
+Time (ms): 86147
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 15
+Time (ms): 82513
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 16
+Time (ms): 81662
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 17
+Time (ms): 84616
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 18
+Time (ms): 85398
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 19
+Time (ms): 87900
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 20
+Time (ms): 86605
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 21
+Time (ms): 84698
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 22
+Time (ms): 85188
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 23
+Time (ms): 83301
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 24
+Time (ms): 85359
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 25
+Time (ms): 86333
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 26
+Time (ms): 82236
+Population Stats: best: 3.1429708E7 worst: 3.1572918E7 ave: 3.149491736E7
+Generation 27
+Time (ms): 82960
+Population Stats: best: 3.1429708E7 worst: 3.1550488E7 ave: 3.149443414E7
+Generation 28
+Time (ms): 81639
+Population Stats: best: 3.1429708E7 worst: 3.1550488E7 ave: 3.149443414E7
+Generation 29
+Time (ms): 84772
+Population Stats: best: 3.1429708E7 worst: 3.1550488E7 ave: 3.149443414E7
+Generation 30
+Time (ms): 82086
+Population Stats: best: 3.1429708E7 worst: 3.1550488E7 ave: 3.149443414E7
+Generation 31
+Time (ms): 85875
+Population Stats: best: 3.1429708E7 worst: 3.1549092E7 ave: 3.149407904E7
+Generation 32
+Time (ms): 89128
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 33
+Time (ms): 88453
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 34
+Time (ms): 84592
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 35
+Time (ms): 85457
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 36
+Time (ms): 85079
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 37
+Time (ms): 84718
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 38
+Time (ms): 85960
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 39
+Time (ms): 81454
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 40
+Time (ms): 86997
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 41
+Time (ms): 84567
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 42
+Time (ms): 89472
+Population Stats: best: 3.1429708E7 worst: 3.1548262E7 ave: 3.14935455E7
+Generation 43
+Time (ms): 86411
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 44
+Time (ms): 84268
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 45
+Time (ms): 86705
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 46
+Time (ms): 85574
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 47
+Time (ms): 81065
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 48
+Time (ms): 87645
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 49
+Time (ms): 85586
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 50
+Time (ms): 83964
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 51
+Time (ms): 86214
+Population Stats: best: 3.1429708E7 worst: 3.1547006E7 ave: 3.149311298E7
+Generation 52
+Time (ms): 84686
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 53
+Time (ms): 81066
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 54
+Time (ms): 86107
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 55
+Time (ms): 84715
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 56
+Time (ms): 82516
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 57
+Time (ms): 85781
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 58
+Time (ms): 87157
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 59
+Time (ms): 86581
+Population Stats: best: 3.1429708E7 worst: 3.1545172E7 ave: 3.149224286E7
+Generation 60
+Time (ms): 85984
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 61
+Time (ms): 82561
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 62
+Time (ms): 86988
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 63
+Time (ms): 85128
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 64
+Time (ms): 83010
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 65
+Time (ms): 81539
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 66
+Time (ms): 83728
+Population Stats: best: 3.1429708E7 worst: 3.1541998E7 ave: 3.149094836E7
+Generation 67
+Time (ms): 83207
+Population Stats: best: 3.1429708E7 worst: 3.1538282E7 ave: 3.14899533E7
+Generation 68
+Time (ms): 85661
+Population Stats: best: 3.1429708E7 worst: 3.1538282E7 ave: 3.14899533E7
+Generation 69
+Time (ms): 86563
+Population Stats: best: 3.1429708E7 worst: 3.1538282E7 ave: 3.14899533E7
+Generation 70
+Time (ms): 83553
+Population Stats: best: 3.1429708E7 worst: 3.1537816E7 ave: 3.148979668E7
+Generation 71
+Time (ms): 85757
+Population Stats: best: 3.1429708E7 worst: 3.1537816E7 ave: 3.148979668E7
+Generation 72
+Time (ms): 81774
+Population Stats: best: 3.1429708E7 worst: 3.1537816E7 ave: 3.148979668E7
+Generation 73
+Time (ms): 87458
+Population Stats: best: 3.1429708E7 worst: 3.1537816E7 ave: 3.148979668E7
+Generation 74
+Time (ms): 85407
+Population Stats: best: 3.1429708E7 worst: 3.1537816E7 ave: 3.148979668E7
+Generation 75
+Time (ms): 85829
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 76
+Time (ms): 88889
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 77
+Time (ms): 85729
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 78
+Time (ms): 84791
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 79
+Time (ms): 86377
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 80
+Time (ms): 83723
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 81
+Time (ms): 88766
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 82
+Time (ms): 86916
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 83
+Time (ms): 87948
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 84
+Time (ms): 87836
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 85
+Time (ms): 86085
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 86
+Time (ms): 89148
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 87
+Time (ms): 85305
+Population Stats: best: 3.1429708E7 worst: 3.153406E7 ave: 3.148834036E7
+Generation 88
+Time (ms): 89480
+Population Stats: best: 3.1429708E7 worst: 3.1532582E7 ave: 3.14879937E7
+Generation 89
+Time (ms): 85318
+Population Stats: best: 3.1429708E7 worst: 3.1532424E7 ave: 3.148752222E7
+Generation 90
+Time (ms): 85676
+Population Stats: best: 3.1429708E7 worst: 3.1532424E7 ave: 3.148752222E7
+Generation 91
+Time (ms): 85919
+Population Stats: best: 3.1429708E7 worst: 3.1532424E7 ave: 3.148752222E7
+Generation 92
+Time (ms): 85908
+Population Stats: best: 3.1429708E7 worst: 3.1532424E7 ave: 3.148752222E7
+Generation 93
+Time (ms): 86725
+Population Stats: best: 3.1429708E7 worst: 3.1532424E7 ave: 3.148752222E7
+Generation 94
+Time (ms): 87246
+Population Stats: best: 3.1429708E7 worst: 3.153103E7 ave: 3.148702836E7
+Generation 95
+Time (ms): 88945
+Population Stats: best: 3.1429708E7 worst: 3.153103E7 ave: 3.148702836E7
+Generation 96
+Time (ms): 87587
+Population Stats: best: 3.1429708E7 worst: 3.153103E7 ave: 3.148702836E7
+Generation 97
+Time (ms): 81825
+Population Stats: best: 3.1429708E7 worst: 3.153103E7 ave: 3.148702836E7
+Generation 98
+Time (ms): 83897
+Population Stats: best: 3.1429708E7 worst: 3.1527968E7 ave: 3.148657614E7
+Generation 99
+Time (ms): 83854
+Population Stats: best: 3.1429708E7 worst: 3.1527968E7 ave: 3.148657614E7
+Generation 100
+Time (ms): 80798
+Population Stats: best: 3.1429708E7 worst: 3.1527968E7 ave: 3.148657614E7
+Best solution, score: 3.1429708E7
