@@ -12,7 +12,7 @@ public class Optimizer {
 	public static Random prng; // The prng that should be used throughout the optimization process
 	public static int VERBOSITY = 0; // A variable that controls how much output the optimization
 									// process produces
-	static int populationSize = 100; // The size of a generation in the GA
+	static int populationSize = 10000; // The size of a generation in the GA
 	static int generations = 100; // The number of generations in the optimization process
 	
 	static int MIN_DISTANCE_FROM_START_WORD = 0; // The minimum distance from the starting word for a word to

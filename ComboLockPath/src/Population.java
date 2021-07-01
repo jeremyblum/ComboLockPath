@@ -17,6 +17,8 @@ public class Population {
 	private int targetSize; // The target population size
 	private Long lastGenerationTime;
 	private Lock lock;
+
+	private Double bestSolutionFitness; //The fitness of the best configuration so far
 	
 	/**
 	 * Seed the population with initial solutions
@@ -99,7 +101,7 @@ public class Population {
 			System.out.println("Time (ms): " + (System.currentTimeMillis() - lastGenerationTime));
 		lastGenerationTime = System.currentTimeMillis();
 		System.out.println("Population Stats: best: " + bestInPopulation + " worst: " + worstInPopulation + 
-				" ave: " + sumOfPopulation / populationList.size());
+				" ave: " + sumOfPopulation / populationList.size() + " bsf: " + bestSolutionFitness);
 	}
 	
 	/**
@@ -346,6 +348,7 @@ public class Population {
 		populationSet.add(solution);
 		if (bestSolutionSoFar == null || bestSolutionSoFar.getScore() > score) {
 			bestSolutionSoFar = solution;
+			bestSolutionFitness = solution.getFitness(); //added JP
 			return ResultCode.BEST_SO_FAR;
 		}
 		return ResultCode.SUCCESS;
