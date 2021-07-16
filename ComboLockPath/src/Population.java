@@ -42,6 +42,8 @@ public class Population {
 			}
 			sum += weights[i];
 		}
+		bestSolutionFitness = lock.getFitness(); //added JP
+		System.out.println("Lock Lower Bound Fitness Score: " + bestSolutionFitness);
 		
 		// Seed the population with initial solutions
 		while (populationList.size() != targetSize) {
@@ -348,7 +350,6 @@ public class Population {
 		populationSet.add(solution);
 		if (bestSolutionSoFar == null || bestSolutionSoFar.getScore() > score) {
 			bestSolutionSoFar = solution;
-			bestSolutionFitness = solution.getFitness(); //added JP
 			return ResultCode.BEST_SO_FAR;
 		}
 		return ResultCode.SUCCESS;

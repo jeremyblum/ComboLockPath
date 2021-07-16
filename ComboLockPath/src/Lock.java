@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -13,6 +14,7 @@ public class Lock {
 	private ArrayList<String> words = new ArrayList<>(); // The list of words
 	private HashSet<String> wordSet = new HashSet<>(); // The set of words that can be made
 	private int [][] distances; // Stored distances between locks and words to speed up computation
+	private Double fitness = null; // The fitness
 	
 	/**
 	 * Initialize a lock
@@ -84,6 +86,55 @@ public class Lock {
 	 */
 	int getWordCount() {
 		return words.size();
+	}
+
+	/**
+	 * Get the lower bound fitness of the lock configuration
+	 * @return a lower bound fitness, which is the sum of the total running distance by looking
+	 *         at the distance of the closest word and next closest word of all the words the lock can create
+	 */
+	double getFitness() {
+		if (fitness == null) {
+			//System.out.println("Can make " + words.size());
+			double[] overallAve = new double[words.size()];
+			double aveSoFar = 0.0;
+			double adjustment = -1.0;
+			for (int i = 0; i < words.size(); i++) {
+				int closestDist = Integer.MAX_VALUE;
+				int closestNextDist = Integer.MAX_VALUE;
+				int closestWord = -1;
+				for (int j = 0; j < words.size(); j++) {
+					if (j == i) continue;
+					int wordDist = distance(i, j);
+					if (wordDist < closestDist) {
+						closestNextDist = closestDist;
+						closestDist = wordDist;
+						closestWord = j;
+					}
+					if (wordDist < closestNextDist && j != closestWord) {
+						closestNextDist = wordDist;
+					}
+					if (closestNextDist == 2) break; // Already found two words very close
+				}
+				double ave = (closestDist + closestNextDist) / 2.0;
+				double aveMinusClsDist = ave - closestDist;
+				if(aveMinusClsDist > adjustment){
+					adjustment = aveMinusClsDist;
+				}
+				overallAve[i] = 1 + ave;
+			}
+			Arrays.sort(overallAve);
+			fitness = 0.0;
+			for(int i = 0; i < overallAve.length; i++){
+				aveSoFar = overallAve[i] + aveSoFar;
+				fitness += aveSoFar;
+			}
+
+			fitness -= adjustment;
+			fitness /= words.size();
+			//System.out.println("Score: " + score + " in " + (System.currentTimeMillis() - time) + " ms");
+		}
+		return fitness;
 	}
 	
 	/**
